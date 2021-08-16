@@ -3,7 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
+        // 厳格な設定をオンにするか
         "strict": true,
+        // 暗黙的なanyを承認する
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
